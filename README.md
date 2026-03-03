@@ -1,1 +1,3 @@
 # CallstackTask
+
+Create a mobile C++ application from scratch, which will render a custom seek bar using Skia. Such seekbar should mimic the one from YouTube: it should support segments (chapters), have a loading animation (similar to indefinite progress bar) and support both drag-n-drop for seeking and double-tap on the respective half of screen for +/- 10s seeking. Your project should use CMake for generating the build files. The choice of backing windowing and platform abstraction layer is not constrained, as long as it is compatible with Skia - some examples of what you may use are SurfaceView/ANativeWindow, CAMetalLayer or SDL. It is up to you to decide whether to build the app for Android or iOS, it is not a hard requirement to support both at once. 
